@@ -1,0 +1,24 @@
+:root {
+  --title-color: #03a9f4;
+}
+
+.title-aboutme {
+  text-align: center;
+}
+
+.title-aboutme h1 {
+  font-size: 55pt;
+}
+
+.title-aboutme h4 {
+  font-size: 30pt;
+  color: var(--title-color);
+}
+
+.hr-title {
+  margin: 0 auto;
+  width: 28%;
+  height: 5px;
+  background-color: black;
+  align-items: center;
+}
