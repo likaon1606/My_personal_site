@@ -2,17 +2,20 @@
   --title-color: #03a9f4;
 }
 
-.title-aboutme {
+.about {
+  margin-top: 150px;
+}
+
+.title {
   text-align: center;
 }
 
-.title-aboutme h1 {
-  font-size: 55pt;
+.title img {
+  width: 400px;
 }
 
-.title-aboutme h4 {
-  font-size: 30pt;
-  color: var(--title-color);
+.title h1 {
+  font-size: 55pt;
 }
 
 .hr-title {
@@ -21,4 +24,17 @@
   height: 5px;
   background-color: black;
   align-items: center;
+}
+
+.title h4 {
+  font-size: 30pt;
+  color: var(--title-color);
+}
+
+.description p {
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 22px;
+  width: 50%;
 }

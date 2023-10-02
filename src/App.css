@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'font-title';
-  src: url('./fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+  font-family: 'font-body';
+  src: url('./fonts/Gabarito-VariableFont_wght.ttf');
 }
 
 @font-face {
-  font-family: 'font-body';
+  font-family: 'font-title';
   src: url('./fonts/PlayfairDisplay-VariableFont_wght.ttf');
 }
 
@@ -15,12 +15,12 @@
 }
 
 body {
-  font: 'font-body';
+  font-family: 'font-body';
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font: 'font-title';
+  font-family: 'font-title';
 }

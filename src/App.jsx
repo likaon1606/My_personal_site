@@ -1,14 +1,14 @@
 import './App.css';
 import AboutMe from './components/AboutMe';
 import Nav from './components/Nav';
+import Nav2 from './components/Nav2';
 
 function App() {
   return (
     <>
       <Nav />
-      <div className='container'>
-        <AboutMe />
-      </div>
+      <Nav2 />
+      <AboutMe />
     </>
   );
 }

@@ -1,0 +1,19 @@
+.container-nav2 {
+  position: relative;
+  top: 20px;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav2 a {
+  margin-top: 0;
+  margin-right: 30px;
+}
+
+.nav2 img {
+  width: 50px;
+}
