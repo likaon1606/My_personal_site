@@ -1,10 +1,10 @@
-import '../styles/aboutme.css';
+import CardAbout from './CardAbout';
 
 const AboutMe = () => {
   return (
     <div className='about'>
       <div className='title'>
-        <img src='../assets/1.jpg' alt='photo' />
+        <CardAbout />
         <h1>Ariel Fuentes García</h1>
         <hr className='hr-title' />
         <h4>Desarrollador Full Stack</h4>

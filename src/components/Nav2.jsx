@@ -1,5 +1,3 @@
-import '../styles/nav2.css';
-
 const Nav2 = () => {
   return (
     <div className='container-nav2'>
