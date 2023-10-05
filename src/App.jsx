@@ -2,6 +2,7 @@
 import AboutMe from './components/AboutMe';
 import Nav from './components/Nav';
 import Nav2 from './components/Nav2';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Nav />
       <Nav2 />
       <AboutMe />
+      <Projects />
     </>
   );
 }

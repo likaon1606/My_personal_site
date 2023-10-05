@@ -3,8 +3,8 @@ import CardAbout from './CardAbout';
 const AboutMe = () => {
   return (
     <div className='about'>
+      <CardAbout />
       <div className='title'>
-        <CardAbout />
         <h1>Ariel Fuentes García</h1>
         <hr className='hr-title' />
         <h4>Desarrollador Full Stack</h4>

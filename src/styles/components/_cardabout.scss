@@ -6,23 +6,22 @@ $blue3: #1363df;
 }
 .view {
   display: flex;
-  width: 300px;
-  height: 200px;
-  margin: 10px;
-  margin-top: 10%;
-  border: 10px solid #fff;
+  width: 500px;
+  height: 350px;
+  border: 10px solid black;
   overflow: hidden;
   position: relative;
   text-align: center;
-  box-shadow: 1px 1px 2px #e6e6e6;
+  box-shadow: 5px 5px 7px black;
   cursor: default;
-  background: #fff url(../../../public/assets/estrellas.gif) no-repeat center
+  background: #fff url(../../../public/assets/matrix.gif) no-repeat center
     center;
+  background-size: cover;
 }
 .view .mask,
 .view .content {
-  width: 300px;
-  height: 200px;
+  width: 500px;
+  height: 350px;
   position: absolute;
   overflow: hidden;
   top: 0;
@@ -31,20 +30,32 @@ $blue3: #1363df;
 .view img {
   display: block;
   position: relative;
+  width: 100%;
 }
+
+.title-efect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 26px;
+}
+
 .view h2 {
   text-transform: uppercase;
   color: #fff;
   position: relative;
-  font-size: 17px;
+  font-size: 34px;
   padding: 10px;
   background: rgba(0, 0, 0, 0.8);
-  margin: 20px 0 0 0;
+  margin: 45px 0 0 0;
 }
 .view p {
   font-family: Georgia, serif;
   font-style: italic;
-  font-size: 12px;
+  font-size: 26px;
   position: relative;
   color: #fff;
   padding: 10px 20px 20px;
@@ -67,7 +78,7 @@ $blue3: #1363df;
   opacity: 1;
 }
 .view .mask {
-  background-color: rgba(77, 44, 35, 0.5);
+  background-color: rgba(44, 35, 77, 0.5);
   transform: rotate(0deg) scale(1);
   opacity: 0;
   transition: all 0.3s ease-out;
@@ -106,21 +117,4 @@ $blue3: #1363df;
 .view:hover a.info {
   transform: translateY(0px);
   transition-delay: 0.5s;
-}
-.aboutMe {
-  margin-top: 10px;
-  text-align: center;
-  & h1 {
-    color: $blue3;
-    body.dark & {
-      color: white;
-    }
-  }
-  & p {
-    text-align: justify;
-    margin: 10px;
-    body.dark & {
-      color: white;
-    }
-  }
 }
