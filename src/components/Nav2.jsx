@@ -1,9 +1,11 @@
+import whatsapp from '../../public/assets/whatsapp2.png';
+
 const Nav2 = () => {
   return (
     <div className='container-nav2'>
       <div className='nav2'>
         <a href='https://wa.me/525532604568' target='blank'>
-          <img src='../assets/whatsapp2.png' alt='whatsapp' />
+          <img src={whatsapp} alt='whatsapp' />
         </a>
         <a href='mailto:ariel.fg@mexwebdesign.com' target='blank'>
           <img src='../assets/gmail.png' alt='email' />
