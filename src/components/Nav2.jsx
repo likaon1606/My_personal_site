@@ -1,4 +1,7 @@
 import whatsapp from '../../public/assets/whatsapp2.png';
+import gmail from '../../public/assets/gmail.png';
+import github from '../../public/assets/github.png';
+import linkedin from '../../public/assets/linkedin2.png';
 
 const Nav2 = () => {
   return (
@@ -8,13 +11,13 @@ const Nav2 = () => {
           <img src={whatsapp} alt='whatsapp' />
         </a>
         <a href='mailto:ariel.fg@mexwebdesign.com' target='blank'>
-          <img src='../assets/gmail.png' alt='email' />
+          <img src={gmail} alt='email' />
         </a>
         <a href='https://github.com/likaon1606' target='blank'>
-          <img src='../assets/github.png' alt='github' />
+          <img src={github} alt='github' />
         </a>
         <a href='https://www.linkedin.com/in/ariel-f-78604898/' target='blank'>
-          <img src='../assets/linkedin2.png' alt='linkedin' />
+          <img src={linkedin} alt='linkedin' />
         </a>
       </div>
     </div>

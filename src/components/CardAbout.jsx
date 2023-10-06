@@ -1,9 +1,11 @@
+import photo from '../../public/assets1.jpg';
+
 const CardAbout = () => {
   return (
     <>
       <article className='container-view'>
         <div className='view'>
-          <img src='../assets/1.jpg' />
+          <img src={photo} />
           <h5 className='title-efect'>¡Click Aquí!</h5>
           <div className='mask'>
             <h2>¡Hola!, Soy Ariel.</h2>
