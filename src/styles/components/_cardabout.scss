@@ -14,8 +14,10 @@ $blue3: #1363df;
   text-align: center;
   box-shadow: 5px 5px 7px black;
   cursor: default;
-  background: #fff url(../../../public/assets/matrix.gif) no-repeat center
-    center;
+  background-image: url(../../../public/assets/matrix.gif);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
 }
 .view .mask,
