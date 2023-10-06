@@ -9,9 +9,6 @@
 .title {
   text-align: center;
   margin-top: 20px;
-  & img {
-    width: 400px;
-  }
   & h1 {
     font-size: 55pt;
   }
@@ -35,4 +32,50 @@
   text-align: justify;
   font-size: 22px;
   width: 80%;
+}
+
+@media screen and (max-width: 425px) {
+  .title {
+    margin-top: 20px;
+    & h1 {
+      font-size: 30pt;
+    }
+    & h4 {
+      font-size: 20pt;
+    }
+  }
+
+  .hr-title {
+    width: 85%;
+  }
+
+  .description p {
+    font-size: 22px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hr-title {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .title {
+    & h1 {
+      font-size: 24pt;
+    }
+    & h4 {
+      font-size: 18pt;
+    }
+  }
+
+  .hr-title {
+    width: 90%;
+  }
+
+  .description p {
+    font-size: 18px;
+  }
 }

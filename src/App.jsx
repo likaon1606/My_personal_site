@@ -10,7 +10,7 @@ function App() {
       <Nav />
       <Nav2 />
       <AboutMe />
-      <Projects />
+      {/* <Projects /> */}
     </>
   );
 }

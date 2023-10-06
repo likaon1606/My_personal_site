@@ -18,3 +18,25 @@
     transform: scale(1.2);
   }
 }
+
+@media only screen and (max-width: 425px) {
+  .nav2 {
+    & a {
+      margin-right: 20px;
+    }
+    & img {
+      width: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .nav2 {
+    & a {
+      margin-right: 15px;
+    }
+    & img {
+      width: 30px;
+    }
+  }
+}

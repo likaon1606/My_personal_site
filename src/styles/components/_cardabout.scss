@@ -118,3 +118,68 @@ $blue3: #1363df;
   transform: translateY(0px);
   transition-delay: 0.5s;
 }
+
+@media screen and (max-width: 425px) {
+  .view {
+    width: 350px;
+    height: 250px;
+  }
+
+  .view .mask,
+  .view .content {
+    width: 350px;
+    height: 250px;
+  }
+
+  .view h2 {
+    font-size: 22px;
+    margin: 20px 0 0 0;
+  }
+
+  .view p {
+    font-size: 18px;
+    padding: 10px 10px 0px;
+  }
+
+  .view a.info {
+    font-size: 18px;
+    padding: 4px 14px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .view {
+    width: 330px;
+    height: 230px;
+  }
+  .view .mask,
+  .view .content {
+    width: 330px;
+    height: 230px;
+  }
+
+  .view a.info {
+    font-size: 16px;
+    padding: 0px 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .view {
+    width: 300px;
+    height: 200px;
+  }
+
+  .view .mask,
+  .view .content {
+    width: 300px;
+    height: 200px;
+  }
+
+  .view a.info {
+    position: relative;
+    font-size: 14px;
+    margin-top: 40px;
+    padding: 3px 14px;
+  }
+}
