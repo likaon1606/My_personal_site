@@ -1,4 +1,4 @@
-import photo from '../../public/assets1.jpg';
+import photo from '../../public/assets/1.jpg';
 
 const CardAbout = () => {
   return (
